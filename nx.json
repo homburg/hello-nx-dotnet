@@ -1,7 +1,13 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "defaultBase": "main",
-  "plugins": [
-    "@nx-dotnet/core"
-  ]
+  "plugins": ["@nx-dotnet/core"],
+  "generators": {
+    "@nx-dotnet/core:application": {
+      "solutionFile": true
+    },
+    "@nx-dotnet/core:library": {
+      "solutionFile": "hello-nx-dotnet.sln"
+    }
+  }
 }
