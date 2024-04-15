@@ -12,6 +12,8 @@
   "scripts": {
     "prepare": "nx g @nx-dotnet/core:restore",
     "build:my-api": "nx build my-api",
-    "serve:my-api": "nx serve my-api"
+    "serve:my-api": "nx serve my-api",
+    "generate:my-api": "nx g @nx-dotnet/core:api my-api --test-template nunit --language C#",
+    "generate:my-lib": "nx g @nx-dotnet/core:lib my-lib --test-template nunit --language C#"
   }
 }
