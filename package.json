@@ -1,0 +1,10 @@
+{
+  "name": "hello-nx-dotnet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@nx-dotnet/core": "^2.2.0"
+  },
+  "packageManager": "yarn@4.1.1"
+}
