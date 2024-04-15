@@ -14,7 +14,9 @@
     "build:my-api": "nx build my-api",
     "serve:my-api": "nx serve my-api",
     "generate:my-api": "nx g @nx-dotnet/core:api my-api --test-template nunit --language C#",
+    "generate:my-app": "nx g @nx-dotnet/core:application my-app --test-template nunit --language C#",
     "generate:my-lib": "nx g @nx-dotnet/core:lib my-lib --test-template nunit --language C#",
+    "generate:my-library": "nx g @nx-dotnet/core:library my-library --test-template nunit --language C#",
     "create:solution-file": "dotnet new sln"
   }
 }
