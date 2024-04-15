@@ -10,6 +10,8 @@
   },
   "packageManager": "yarn@4.1.1",
   "scripts": {
-    "prepare": "nx g @nx-dotnet/core:restore"
+    "prepare": "nx g @nx-dotnet/core:restore",
+    "build:my-api": "nx build my-api",
+    "serve:my-api": "nx serve my-api"
   }
 }
